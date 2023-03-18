@@ -1,0 +1,784 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;\f2\fnil\fcharset0 HelveticaNeue;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red38\green38\blue38;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c20000\c20000\c20000;
+}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Problem 1\
+\
+Output:\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 0: A=0000, B=0000, S=0000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      1: A=0000, B=0001, S=0001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      2: A=0000, B=0010, S=0010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      3: A=0000, B=0011, S=0011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      4: A=0000, B=0100, S=0100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      5: A=0000, B=0101, S=0101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      6: A=0000, B=0110, S=0110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      7: A=0000, B=0111, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      8: A=0000, B=1000, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:      9: A=0000, B=1001, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     10: A=0000, B=1010, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     11: A=0000, B=1011, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     12: A=0000, B=1100, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     13: A=0000, B=1101, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     14: A=0000, B=1110, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     15: A=0000, B=1111, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     16: A=0001, B=0000, S=0001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     17: A=0001, B=0001, S=0010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     18: A=0001, B=0010, S=0011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     19: A=0001, B=0011, S=0100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     20: A=0001, B=0100, S=0101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     21: A=0001, B=0101, S=0110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     22: A=0001, B=0110, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     23: A=0001, B=0111, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     24: A=0001, B=1000, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     25: A=0001, B=1001, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     26: A=0001, B=1010, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     27: A=0001, B=1011, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     28: A=0001, B=1100, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     29: A=0001, B=1101, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     30: A=0001, B=1110, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     31: A=0001, B=1111, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     32: A=0010, B=0000, S=0010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     33: A=0010, B=0001, S=0011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     34: A=0010, B=0010, S=0100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     35: A=0010, B=0011, S=0101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     36: A=0010, B=0100, S=0110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     37: A=0010, B=0101, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     38: A=0010, B=0110, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     39: A=0010, B=0111, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     40: A=0010, B=1000, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     41: A=0010, B=1001, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     42: A=0010, B=1010, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     43: A=0010, B=1011, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     44: A=0010, B=1100, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     45: A=0010, B=1101, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     46: A=0010, B=1110, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     47: A=0010, B=1111, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     48: A=0011, B=0000, S=0011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     49: A=0011, B=0001, S=0100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     50: A=0011, B=0010, S=0101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     51: A=0011, B=0011, S=0110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     52: A=0011, B=0100, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     53: A=0011, B=0101, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     54: A=0011, B=0110, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     55: A=0011, B=0111, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     56: A=0011, B=1000, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     57: A=0011, B=1001, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     58: A=0011, B=1010, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     59: A=0011, B=1011, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     60: A=0011, B=1100, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     61: A=0011, B=1101, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     62: A=0011, B=1110, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     63: A=0011, B=1111, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     64: A=0100, B=0000, S=0100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     65: A=0100, B=0001, S=0101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     66: A=0100, B=0010, S=0110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     67: A=0100, B=0011, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     68: A=0100, B=0100, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     69: A=0100, B=0101, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     70: A=0100, B=0110, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     71: A=0100, B=0111, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     72: A=0100, B=1000, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     73: A=0100, B=1001, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     74: A=0100, B=1010, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     75: A=0100, B=1011, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     76: A=0100, B=1100, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     77: A=0100, B=1101, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     78: A=0100, B=1110, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     79: A=0100, B=1111, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     80: A=0101, B=0000, S=0101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     81: A=0101, B=0001, S=0110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     82: A=0101, B=0010, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     83: A=0101, B=0011, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     84: A=0101, B=0100, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     85: A=0101, B=0101, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     86: A=0101, B=0110, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     87: A=0101, B=0111, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     88: A=0101, B=1000, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     89: A=0101, B=1001, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     90: A=0101, B=1010, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     91: A=0101, B=1011, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     92: A=0101, B=1100, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     93: A=0101, B=1101, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     94: A=0101, B=1110, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     95: A=0101, B=1111, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     96: A=0110, B=0000, S=0110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     97: A=0110, B=0001, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     98: A=0110, B=0010, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:     99: A=0110, B=0011, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    100: A=0110, B=0100, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    101: A=0110, B=0101, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    102: A=0110, B=0110, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    103: A=0110, B=0111, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    104: A=0110, B=1000, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    105: A=0110, B=1001, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    106: A=0110, B=1010, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    107: A=0110, B=1011, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    108: A=0110, B=1100, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    109: A=0110, B=1101, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    110: A=0110, B=1110, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    111: A=0110, B=1111, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    112: A=0111, B=0000, S=0111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    113: A=0111, B=0001, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    114: A=0111, B=0010, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    115: A=0111, B=0011, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    116: A=0111, B=0100, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    117: A=0111, B=0101, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    118: A=0111, B=0110, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    119: A=0111, B=0111, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    120: A=0111, B=1000, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    121: A=0111, B=1001, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    122: A=0111, B=1010, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    123: A=0111, B=1011, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    124: A=0111, B=1100, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    125: A=0111, B=1101, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    126: A=0111, B=1110, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    127: A=0111, B=1111, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    128: A=1000, B=0000, S=1000, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    129: A=1000, B=0001, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    130: A=1000, B=0010, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    131: A=1000, B=0011, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    132: A=1000, B=0100, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    133: A=1000, B=0101, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    134: A=1000, B=0110, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    135: A=1000, B=0111, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    136: A=1000, B=1000, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    137: A=1000, B=1001, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    138: A=1000, B=1010, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    139: A=1000, B=1011, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    140: A=1000, B=1100, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    141: A=1000, B=1101, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    142: A=1000, B=1110, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    143: A=1000, B=1111, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    144: A=1001, B=0000, S=1001, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    145: A=1001, B=0001, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    146: A=1001, B=0010, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    147: A=1001, B=0011, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    148: A=1001, B=0100, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    149: A=1001, B=0101, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    150: A=1001, B=0110, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    151: A=1001, B=0111, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    152: A=1001, B=1000, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    153: A=1001, B=1001, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    154: A=1001, B=1010, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    155: A=1001, B=1011, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    156: A=1001, B=1100, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    157: A=1001, B=1101, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    158: A=1001, B=1110, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    159: A=1001, B=1111, S=1000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    160: A=1010, B=0000, S=1010, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    161: A=1010, B=0001, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    162: A=1010, B=0010, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    163: A=1010, B=0011, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    164: A=1010, B=0100, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    165: A=1010, B=0101, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    166: A=1010, B=0110, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    167: A=1010, B=0111, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    168: A=1010, B=1000, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    169: A=1010, B=1001, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    170: A=1010, B=1010, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    171: A=1010, B=1011, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    172: A=1010, B=1100, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    173: A=1010, B=1101, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    174: A=1010, B=1110, S=1000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    175: A=1010, B=1111, S=1001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    176: A=1011, B=0000, S=1011, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    177: A=1011, B=0001, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    178: A=1011, B=0010, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    179: A=1011, B=0011, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    180: A=1011, B=0100, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    181: A=1011, B=0101, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    182: A=1011, B=0110, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    183: A=1011, B=0111, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    184: A=1011, B=1000, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    185: A=1011, B=1001, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    186: A=1011, B=1010, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    187: A=1011, B=1011, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    188: A=1011, B=1100, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    189: A=1011, B=1101, S=1000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    190: A=1011, B=1110, S=1001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    191: A=1011, B=1111, S=1010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    192: A=1100, B=0000, S=1100, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    193: A=1100, B=0001, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    194: A=1100, B=0010, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    195: A=1100, B=0011, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    196: A=1100, B=0100, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    197: A=1100, B=0101, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    198: A=1100, B=0110, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    199: A=1100, B=0111, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    200: A=1100, B=1000, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    201: A=1100, B=1001, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    202: A=1100, B=1010, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    203: A=1100, B=1011, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    204: A=1100, B=1100, S=1000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    205: A=1100, B=1101, S=1001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    206: A=1100, B=1110, S=1010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    207: A=1100, B=1111, S=1011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    208: A=1101, B=0000, S=1101, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    209: A=1101, B=0001, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    210: A=1101, B=0010, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    211: A=1101, B=0011, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    212: A=1101, B=0100, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    213: A=1101, B=0101, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    214: A=1101, B=0110, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    215: A=1101, B=0111, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    216: A=1101, B=1000, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    217: A=1101, B=1001, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    218: A=1101, B=1010, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    219: A=1101, B=1011, S=1000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    220: A=1101, B=1100, S=1001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    221: A=1101, B=1101, S=1010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    222: A=1101, B=1110, S=1011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    223: A=1101, B=1111, S=1100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    224: A=1110, B=0000, S=1110, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    225: A=1110, B=0001, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    226: A=1110, B=0010, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    227: A=1110, B=0011, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    228: A=1110, B=0100, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    229: A=1110, B=0101, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    230: A=1110, B=0110, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    231: A=1110, B=0111, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    232: A=1110, B=1000, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    233: A=1110, B=1001, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    234: A=1110, B=1010, S=1000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    235: A=1110, B=1011, S=1001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    236: A=1110, B=1100, S=1010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    237: A=1110, B=1101, S=1011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    238: A=1110, B=1110, S=1100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    239: A=1110, B=1111, S=1101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    240: A=1111, B=0000, S=1111, co=0
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    241: A=1111, B=0001, S=0000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    242: A=1111, B=0010, S=0001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    243: A=1111, B=0011, S=0010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    244: A=1111, B=0100, S=0011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    245: A=1111, B=0101, S=0100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    246: A=1111, B=0110, S=0101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    247: A=1111, B=0111, S=0110, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    248: A=1111, B=1000, S=0111, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    249: A=1111, B=1001, S=1000, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    250: A=1111, B=1010, S=1001, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    251: A=1111, B=1011, S=1010, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    252: A=1111, B=1100, S=1011, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    253: A=1111, B=1101, S=1100, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    254: A=1111, B=1110, S=1101, co=1
+\f2\fs26 \cf4 \strokec4 \
+
+\f1\fs24 \cf2 \strokec2 # KERNEL:    255: A=1111, B=1111, S=1110, co=1
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+}
